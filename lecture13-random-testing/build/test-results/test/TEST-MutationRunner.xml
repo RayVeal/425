@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MutationRunner" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-03-10T20:04:37" hostname="tech’s-MacBook-Pro" time="0.097">
+  <properties/>
+  <testcase name="mutationDecoderTest()" classname="MutationRunner" time="0.097">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at MutationRunner.mutationDecoderTest(MutationRunner.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Flipping d to D
+http://www.google.com/abcD/123
+Inserting ) at 21
+http://www.abcd.com/%)12
+Deleting g at 14
+http://www.goole.com/abcd/123
+Inserting T at 9
+http://wwTw.google.com/abcd/123
+Flipping c to k
+http://www.abkd.com/1+2
+Inserting 3 at 8
+http://w3ww.abcd.com/%12
+Flipping b to j
+http://www.google.com/ajcd/123
+Deleting w at 8
+http://ww.abcd.com/%12
+Inserting & at 9
+http://ww&w.abcd.com/%12
+Inserting M at 8
+http://wMww.google.com/abcd/123
+Inserting ] at 6
+http:/]/www.abcd.com/%12
+Deleting e at 16
+http://www.googl.com/abcd/123
+Inserting y at 20
+http://www.abcd.com/y%12
+Flipping . to *
+http://www.abcd*com/1+2
+Flipping c to b
+http://www.google.com/abbd/123
+Deleting b at 23
+http://www.google.com/acd/123
+Flipping 2 to 0
+http://www.abcd.com/1+0
+Deleting c at 13
+http://www.abd.com/1+2
+Inserting h at 8
+http://whww.abcd.com/1+2
+Inserting & at 17
+http://www.google&.com/abcd/123
+Flipping g to G
+http://www.Google.com/abcd/123
+Inserting 9 at 20
+http://www.google.co9m/abcd/123
+Inserting b at 19
+http://www.google.cbom/abcd/123
+Deleting d at 14
+http://www.abc.com/%12
+Flipping / to .
+http:/.www.abcd.com/%12
+Deleting o at 12
+http://www.gogle.com/abcd/123
+Flipping t to p
+htpp://www.abcd.com/%12
+Inserting N at 21
+http://www.abcd.com/1N+2
+Flipping p to t
+httt://www.abcd.com/%12
+Inserting ( at 28
+http://www.google.com/abcd/1(23
+Inserting 7 at 12
+http://www.a7bcd.com/%12
+Inserting m at 10
+http://wwwm.abcd.com/1+2
+Deleting b at 12
+http://www.acd.com/%12
+Inserting Q at 14
+http://www.abcQd.com/%12
+Inserting 5 at 11
+http://www.5google.com/abcd/123
+Inserting 2 at 6
+http:/2/www.google.com/abcd/123
+Inserting [ at 7
+http://[www.abcd.com/%12
+Inserting \ at 13
+http://www.go\ogle.com/abcd/123
+Flipping . to ,
+http://www.abcd,com/%12
+Flipping w to g
+http://wgw.abcd.com/1+2
+Inserting z at 8
+http://wzww.abcd.com/%12
+Inserting _ at 8
+http://w_ww.abcd.com/1+2
+Inserting . at 26
+http://www.google.com/abcd./123
+Flipping : to 8
+http8//www.abcd.com/%12
+Inserting 5 at 12
+http://www.g5oogle.com/abcd/123
+Inserting w at 16
+http://www.abcd.wcom/1+2
+Inserting a at 9
+http://wwaw.abcd.com/1+2
+Deleting h at 0
+ttp://www.google.com/abcd/123
+Flipping p to P
+httP://www.google.com/abcd/123
+Flipping p to r
+httr://www.abcd.com/1+2
+Inserting N at 16
+http://www.googlNe.com/abcd/123
+Flipping g to G
+http://www.gooGle.com/abcd/123
+Inserting ' at 24
+http://www.google.com/ab'cd/123
+Flipping / to .
+http:/.www.google.com/abcd/123
+Deleting b at 12
+http://www.acd.com/%12
+Flipping e to m
+http://www.googlm.com/abcd/123
+Inserting D at 8
+http://wDww.abcd.com/%12
+Flipping / to ?
+http:?/www.abcd.com/%12
+Inserting q at 8
+http://wqww.abcd.com/1+2
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Flipping 2 to 0
+http://www.google.com/abcd/103
+Deleting b at 12
+http://www.acd.com/1+2
+Inserting - at 10
+http://www-.abcd.com/%12
+Inserting n at 12
+http://www.anbcd.com/1+2
+Deleting 1 at 21
+http://www.abcd.com/%2
+Deleting w at 7
+http://ww.google.com/abcd/123
+Flipping 2 to :
+http://www.abcd.com/%1:
+Inserting < at 8
+http://w<ww.google.com/abcd/123
+Inserting 9 at 1
+h9ttp://www.abcd.com/1+2
+Flipping / to ?
+http://www.abcd.com?%12
+Deleting / at 6
+http:/www.google.com/abcd/123
+Flipping : to 2
+http2//www.abcd.com/1+2
+Deleting g at 11
+http://www.oogle.com/abcd/123
+Inserting f at 19
+http://www.abcd.comf/%12
+Flipping w to v
+http://vww.abcd.com/%12
+Flipping b to c
+http://www.accd.com/%12
+Inserting s at 26
+http://www.google.com/abcds/123
+Inserting W at 9
+http://wwWw.google.com/abcd/123
+Flipping w to s
+http://wws.abcd.com/%12
+Inserting y at 1
+hyttp://www.abcd.com/1+2
+Deleting c at 16
+http://www.abcd.om/%12
+Flipping : to 2
+http2//www.google.com/abcd/123
+Flipping c to k
+http://www.abcd.kom/1+2
+Inserting : at 21
+http://www.abcd.com/1:+2
+Flipping m to o
+http://www.abcd.coo/%12
+Deleting . at 10
+http://wwwabcd.com/%12
+Deleting o at 17
+http://www.abcd.cm/1+2
+Deleting + at 21
+http://www.abcd.com/12
+Inserting 4 at 18
+http://www.abcd.co4m/1+2
+Inserting Q at 9
+http://wwQw.abcd.com/1+2
+Inserting T at 1
+hTttp://www.abcd.com/%12
+Inserting j at 19
+http://www.abcd.comj/%12
+Flipping o to n
+http://www.google.cnm/abcd/123
+Flipping m to i
+http://www.abcd.coi/1+2
+Inserting { at 6
+http:/{/www.abcd.com/%12
+Flipping c to b
+http://www.abcd.bom/%12
+Inserting 9 at 19
+http://www.google.c9om/abcd/123
+Inserting p at 18
+http://www.abcd.copm/1+2
+Inserting R at 9
+http://wwRw.abcd.com/%12
+Deleting o at 13
+http://www.gogle.com/abcd/123
+Deleting o at 19
+http://www.google.cm/abcd/123
+Inserting Q at 9
+http://wwQw.abcd.com/%12
+Flipping c to C
+http://www.abcd.Com/%12
+Deleting / at 19
+http://www.abcd.com1+2
+Inserting D at 12
+http://www.aDbcd.com/%12
+Inserting % at 22
+http://www.abcd.com/1+%2
+Deleting / at 5
+http:/www.abcd.com/%12
+Flipping t to T
+hTtp://www.google.com/abcd/123
+Inserting X at 14
+http://www.abcXd.com/1+2
+Inserting A at 22
+http://www.abcd.com/1+A2
+Flipping . to &
+http://www&google.com/abcd/123
+Inserting 7 at 10
+http://www7.google.com/abcd/123
+Inserting x at 17
+http://www.abcd.cxom/%12
+Flipping w to g
+http://wwg.abcd.com/1+2
+Deleting a at 22
+http://www.google.com/bcd/123
+Inserting P at 10
+http://wwwP.google.com/abcd/123
+Deleting t at 1
+htp://www.abcd.com/%12
+Inserting < at 7
+http://<www.abcd.com/1+2
+Deleting w at 9
+http://ww.abcd.com/1+2
+Inserting ? at 11
+http://www.?google.com/abcd/123
+Deleting m at 18
+http://www.abcd.co/1+2
+Deleting / at 26
+http://www.google.com/abcd123
+Inserting h at 20
+http://www.abcd.com/h1+2
+Deleting : at 4
+http//www.abcd.com/%12
+Flipping t to u
+htup://www.abcd.com/1+2
+Flipping . to ?
+http://www.google?com/abcd/123
+Inserting : at 23
+http://www.google.com/a:bcd/123
+Flipping . to >
+http://www.abcd>com/1+2
+Flipping w to s
+http://sww.google.com/abcd/123
+Inserting k at 22
+http://www.abcd.com/1+k2
+Deleting / at 5
+http:/www.abcd.com/%12
+Flipping o to n
+http://www.gongle.com/abcd/123
+Deleting a at 11
+http://www.bcd.com/1+2
+Deleting 2 at 28
+http://www.google.com/abcd/13
+Flipping 1 to 5
+http://www.google.com/abcd/523
+Inserting ~ at 0
+~http://www.google.com/abcd/123
+Flipping 2 to ?
+http://www.abcd.com/%1?
+Flipping b to r
+http://www.arcd.com/%12
+Inserting 3 at 16
+http://www.abcd.3com/%12
+Flipping 3 to #
+http://www.google.com/abcd/12#
+Flipping h to l
+lttp://www.abcd.com/%12
+Flipping a to q
+http://www.qbcd.com/1+2
+Inserting A at 27
+http://www.google.com/abcd/A123
+Deleting p at 3
+htt://www.abcd.com/%12
+Inserting V at 15
+http://www.abcdV.com/%12
+Deleting m at 18
+http://www.abcd.co/%12
+Flipping 2 to 0
+http://www.abcd.com/%10
+Flipping o to n
+http://www.google.cnm/abcd/123
+Deleting / at 5
+http:/www.google.com/abcd/123
+Inserting q at 17
+http://www.abcd.cqom/1+2
+Deleting p at 3
+htt://www.abcd.com/1+2
+Flipping w to g
+http://gww.abcd.com/%12
+Inserting 4 at 21
+http://www.abcd.com/14+2
+Flipping / to +
+http://www.abcd.com+1+2
+Inserting E at 4
+httpE://www.abcd.com/1+2
+Flipping d to `
+http://www.abc`.com/%12
+Deleting a at 11
+http://www.bcd.com/1+2
+Inserting + at 17
+http://www.google+.com/abcd/123
+Deleting p at 3
+htt://www.google.com/abcd/123
+Inserting = at 2
+ht=tp://www.abcd.com/1+2
+Deleting / at 6
+http:/www.abcd.com/%12
+Flipping / to ?
+http:?/www.google.com/abcd/123
+Deleting e at 16
+http://www.googl.com/abcd/123
+Flipping 1 to ?
+http://www.google.com/abcd/?23
+Inserting O at 14
+http://www.gooOgle.com/abcd/123
+Inserting z at 0
+zhttp://www.abcd.com/1+2
+Inserting { at 4
+http{://www.abcd.com/%12
+Deleting p at 3
+htt://www.abcd.com/1+2
+Deleting t at 2
+htp://www.abcd.com/1+2
+Deleting w at 7
+http://ww.google.com/abcd/123
+Inserting w at 28
+http://www.google.com/abcd/1w23
+Inserting @ at 8
+http://w@ww.google.com/abcd/123
+Deleting m at 20
+http://www.google.co/abcd/123
+Inserting 4 at 1
+h4ttp://www.abcd.com/1+2
+Inserting Z at 19
+http://www.abcd.comZ/%12
+Deleting 2 at 22
+http://www.abcd.com/%1
+Flipping 1 to 3
+http://www.abcd.com/%32
+Deleting w at 8
+http://ww.google.com/abcd/123
+Inserting b at 3
+httbp://www.google.com/abcd/123
+Flipping 1 to 0
+http://www.abcd.com/%02
+Deleting t at 2
+htp://www.google.com/abcd/123
+Inserting . at 2
+ht.tp://www.google.com/abcd/123
+Deleting / at 5
+http:/www.abcd.com/1+2
+Flipping / to +
+http:+/www.abcd.com/1+2
+Flipping . to >
+http://www.abcd>com/%12
+Flipping t to v
+hvtp://www.google.com/abcd/123
+Deleting . at 17
+http://www.googlecom/abcd/123
+Flipping t to d
+htdp://www.abcd.com/%12
+Flipping a to c
+http://www.cbcd.com/%12
+Flipping . to /
+http://www/abcd.com/1+2
+Deleting / at 6
+http:/www.abcd.com/1+2
+Deleting b at 23
+http://www.google.com/acd/123
+Deleting : at 4
+http//www.google.com/abcd/123
+Flipping b to j
+http://www.ajcd.com/1+2
+Inserting % at 2
+ht%tp://www.abcd.com/1+2
+Flipping c to s
+http://www.google.com/absd/123
+Inserting 0 at 9
+http://ww0w.google.com/abcd/123
+Flipping . to ,
+http://www,google.com/abcd/123
+Inserting ` at 7
+http://`www.abcd.com/%12
+Inserting 9 at 12
+http://www.a9bcd.com/1+2
+Inserting j at 12
+http://www.ajbcd.com/%12
+Flipping . to ?
+http://www.abcd?com/1+2
+Flipping o to m
+http://www.abcd.cmm/1+2
+Flipping c to g
+http://www.abcd.gom/1+2
+Flipping d to D
+http://www.abcD.com/%12
+Inserting G at 20
+http://www.abcd.com/G1+2
+Deleting c at 13
+http://www.abd.com/1+2
+Inserting D at 5
+http:D//www.abcd.com/1+2
+Deleting w at 9
+http://ww.abcd.com/%12
+Inserting l at 13
+http://www.ablcd.com/1+2
+Flipping w to g
+http://wgw.abcd.com/1+2
+Deleting p at 3
+htt://www.abcd.com/%12
+Deleting p at 3
+htt://www.google.com/abcd/123
+Inserting . at 17
+http://www.abcd.c.om/1+2
+Inserting d at 18
+http://www.abcd.codm/%12
+Flipping % to -
+http://www.abcd.com/-12
+Deleting o at 12
+http://www.gogle.com/abcd/123
+Deleting 2 at 22
+http://www.abcd.com/%1
+Flipping w to s
+http://wws.abcd.com/1+2
+Inserting / at 17
+http://www.abcd.c/om/1+2
+Flipping 2 to 3
+http://www.google.com/abcd/133
+Inserting + at 19
+http://www.abcd.com+/%12
+Flipping w to g
+http://wgw.abcd.com/1+2
+Deleting / at 5
+http:/www.abcd.com/%12
+Flipping : to ?
+http?//www.google.com/abcd/123
+Flipping h to l
+lttp://www.google.com/abcd/123
+Flipping / to ?
+http:?/www.abcd.com/%12
+Deleting / at 21
+http://www.google.comabcd/123
+Flipping w to s
+http://wsw.abcd.com/%12
+Flipping 1 to ?
+http://www.abcd.com/%?2
+Inserting = at 6
+http:/=/www.abcd.com/%12
+Deleting g at 11
+http://www.oogle.com/abcd/123
+Inserting 4 at 1
+h4ttp://www.abcd.com/%12
+Inserting } at 7
+http://}www.google.com/abcd/123
+Deleting + at 21
+http://www.abcd.com/12
+Flipping 1 to 5
+http://www.abcd.com/%52
+Deleting : at 4
+http//www.abcd.com/%12
+Deleting 2 at 22
+http://www.abcd.com/1+
+Inserting 3 at 25
+http://www.google.com/abc3d/123
+Deleting / at 5
+http:/www.abcd.com/1+2
+Flipping : to *
+http*//www.google.com/abcd/123
+Deleting p at 3
+htt://www.abcd.com/%12
+Deleting e at 16
+http://www.googl.com/abcd/123
+Deleting h at 0
+ttp://www.abcd.com/%12
+Flipping d to f
+http://www.google.com/abcf/123
+Flipping h to `
+`ttp://www.google.com/abcd/123
+Flipping o to ]]>&#x7f;<![CDATA[
+http://www.g]]>&#x7f;<![CDATA[ogle.com/abcd/123
+Deleting d at 14
+http://www.abc.com/%12
+Flipping + to /
+http://www.abcd.com/1/2
+Flipping w to u
+http://wuw.google.com/abcd/123
+Deleting . at 10
+http://wwwgoogle.com/abcd/123
+Deleting c at 13
+http://www.abd.com/%12
+Flipping g to G
+http://www.Google.com/abcd/123
+Deleting % at 20
+http://www.abcd.com/12
+Flipping l to L
+http://www.googLe.com/abcd/123
+Deleting b at 23
+http://www.google.com/acd/123
+Inserting ' at 8
+http://w'ww.abcd.com/%12
+Flipping w to g
+http://wgw.abcd.com/1+2
+Flipping w to v
+http://wwv.google.com/abcd/123
+Deleting t at 2
+htp://www.google.com/abcd/123
+Deleting h at 0
+ttp://www.abcd.com/%12
+Flipping d to t
+http://www.abct.com/1+2
+Inserting = at 18
+http://www.google.=com/abcd/123
+Inserting O at 5
+http:O//www.abcd.com/1+2
+Inserting y at 0
+yhttp://www.abcd.com/%12
+Deleting . at 15
+http://www.abcdcom/%12
+Flipping b to c
+http://www.accd.com/1+2
+Deleting h at 0
+ttp://www.abcd.com/%12
+Flipping t to p
+htpp://www.abcd.com/%12
+Inserting v at 12
+http://www.avbcd.com/1+2
+Inserting c at 15
+http://www.abcdc.com/%12
+Flipping o to ]]>&#x7f;<![CDATA[
+http://www.go]]>&#x7f;<![CDATA[gle.com/abcd/123
+Flipping c to b
+http://www.google.com/abbd/123
+Inserting ) at 16
+http://www.googl)e.com/abcd/123
+Deleting d at 14
+http://www.abc.com/1+2
+Deleting b at 12
+http://www.acd.com/%12
+Flipping w to g
+http://wgw.abcd.com/1+2
+Inserting < at 11
+http://www.<abcd.com/1+2
+Inserting v at 7
+http://vwww.abcd.com/1+2
+Flipping . to /
+http://www/abcd.com/1+2
+Inserting * at 11
+http://www.*google.com/abcd/123
+Deleting / at 19
+http://www.abcd.com%12
+Deleting / at 5
+http:/www.google.com/abcd/123
+Flipping c to a
+http://www.abcd.aom/%12
+Deleting d at 14
+http://www.abc.com/1+2
+Inserting < at 7
+http://<www.google.com/abcd/123
+Inserting < at 13
+http://www.ab<cd.com/%12
+Flipping w to g
+http://wgw.abcd.com/%12
+Deleting % at 20
+http://www.abcd.com/12
+Deleting o at 13
+http://www.gogle.com/abcd/123
+Flipping o to O
+http://www.goOgle.com/abcd/123
+Inserting / at 23
+http://www.google.com/a/bcd/123
+Inserting { at 0
+{http://www.abcd.com/%12
+Deleting t at 1
+htp://www.abcd.com/%12
+Inserting ' at 6
+http:/'/www.google.com/abcd/123
+Flipping . to /
+http://www.abcd/com/%12
+Deleting c at 16
+http://www.abcd.om/1+2
+Flipping : to 2
+http2//www.abcd.com/%12
+Flipping / to ?
+http:?/www.abcd.com/%12
+Flipping / to .
+http:/.www.abcd.com/%12
+Deleting 2 at 28
+http://www.google.com/abcd/13
+Deleting w at 7
+http://ww.abcd.com/%12
+Deleting / at 19
+http://www.abcd.com%12
+Deleting w at 8
+http://ww.abcd.com/%12
+Inserting * at 0
+*http://www.google.com/abcd/123
+Deleting h at 0
+ttp://www.abcd.com/%12
+Flipping 2 to :
+http://www.abcd.com/1+:
+Flipping h to j
+jttp://www.abcd.com/%12
+Deleting d at 25
+http://www.google.com/abc/123
+Deleting e at 16
+http://www.googl.com/abcd/123
+Deleting o at 17
+http://www.abcd.cm/1+2
+Flipping . to *
+http://www.google*com/abcd/123
+Inserting : at 18
+http://www.google.:com/abcd/123
+Inserting 9 at 18
+http://www.google.9com/abcd/123
+Flipping . to ,
+http://www.abcd,com/1+2
+Flipping / to ?
+http://www.google.com?abcd/123
+Deleting / at 6
+http:/www.google.com/abcd/123
+Flipping p to `
+htt`://www.abcd.com/1+2
+Deleting o at 19
+http://www.google.cm/abcd/123
+Inserting V at 28
+http://www.google.com/abcd/1V23
+Flipping o to ]]>&#x7f;<![CDATA[
+http://www.google.c]]>&#x7f;<![CDATA[m/abcd/123
+Deleting c at 13
+http://www.abd.com/1+2
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Inserting b at 11
+http://www.babcd.com/%12
+Flipping p to `
+htt`://www.abcd.com/1+2
+Flipping / to +
+http:+/www.abcd.com/%12
+Deleting b at 12
+http://www.acd.com/%12
+Flipping t to |
+ht|p://www.abcd.com/1+2
+Flipping h to x
+xttp://www.abcd.com/%12
+Flipping w to u
+http://wwu.abcd.com/1+2
+Deleting d at 14
+http://www.abc.com/%12
+Flipping 1 to 3
+http://www.google.com/abcd/323
+Inserting s at 4
+https://www.abcd.com/1+2
+Inserting ? at 29
+http://www.google.com/abcd/12?3
+Deleting o at 13
+http://www.gogle.com/abcd/123
+Flipping h to i
+ittp://www.abcd.com/%12
+Flipping / to .
+http://www.google.com.abcd/123
+Inserting   at 29
+http://www.google.com/abcd/12 3
+Deleting w at 9
+http://ww.google.com/abcd/123
+Deleting g at 14
+http://www.goole.com/abcd/123
+Flipping b to r
+http://www.arcd.com/%12
+Inserting 8 at 28
+http://www.google.com/abcd/1823
+Flipping . to *
+http://www.google*com/abcd/123
+Inserting / at 7
+http:///www.google.com/abcd/123
+Inserting : at 2
+ht:tp://www.abcd.com/1+2
+Inserting ) at 25
+http://www.google.com/abc)d/123
+Flipping / to +
+http://www.google.com/abcd+123
+Deleting a at 11
+http://www.bcd.com/1+2
+Deleting t at 1
+htp://www.abcd.com/1+2
+Flipping t to v
+htvp://www.google.com/abcd/123
+Inserting s at 2
+htstp://www.abcd.com/%12
+Deleting c at 16
+http://www.abcd.om/1+2
+Inserting Z at 8
+http://wZww.abcd.com/%12
+Flipping w to v
+http://wvw.abcd.com/1+2
+Inserting < at 20
+http://www.abcd.com/<1+2
+Flipping m to i
+http://www.abcd.coi/1+2
+Inserting W at 9
+http://wwWw.google.com/abcd/123
+Deleting o at 19
+http://www.google.cm/abcd/123
+Deleting c at 16
+http://www.abcd.om/1+2
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Flipping : to ;
+http;//www.google.com/abcd/123
+Inserting w at 14
+http://www.abcwd.com/%12
+Inserting p at 3
+httpp://www.google.com/abcd/123
+Inserting ~ at 1
+h~ttp://www.google.com/abcd/123
+Deleting a at 11
+http://www.bcd.com/1+2
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Deleting / at 5
+http:/www.abcd.com/1+2
+Deleting 2 at 22
+http://www.abcd.com/1+
+Flipping t to v
+htvp://www.abcd.com/%12
+Flipping 2 to "
+http://www.abcd.com/1+"
+Flipping p to x
+httx://www.abcd.com/1+2
+Deleting d at 14
+http://www.abc.com/1+2
+Inserting Y at 16
+http://www.abcd.Ycom/%12
+Inserting R at 3
+httRp://www.abcd.com/1+2
+Deleting 2 at 28
+http://www.google.com/abcd/13
+Flipping h to j
+jttp://www.abcd.com/%12
+Inserting f at 14
+http://www.abcfd.com/%12
+Deleting p at 3
+htt://www.abcd.com/%12
+Inserting q at 1
+hqttp://www.abcd.com/1+2
+Inserting U at 19
+http://www.google.cUom/abcd/123
+Inserting } at 7
+http://}www.abcd.com/1+2
+Deleting c at 16
+http://www.abcd.om/%12
+Inserting M at 18
+http://www.google.Mcom/abcd/123
+Inserting L at 12
+http://www.aLbcd.com/%12
+Deleting 2 at 22
+http://www.abcd.com/%1
+Flipping o to k
+http://www.gkogle.com/abcd/123
+Deleting t at 1
+htp://www.abcd.com/%12
+Flipping c to s
+http://www.google.som/abcd/123
+Inserting S at 8
+http://wSww.abcd.com/%12
+Flipping w to g
+http://gww.abcd.com/%12
+Flipping 2 to ?
+http://www.google.com/abcd/1?3
+Inserting Y at 12
+http://www.aYbcd.com/%12
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Inserting @ at 4
+http@://www.google.com/abcd/123
+Deleting : at 4
+http//www.abcd.com/1+2
+Inserting p at 7
+http://pwww.abcd.com/1+2
+Flipping t to T
+htTp://www.abcd.com/%12
+Inserting l at 3
+httlp://www.abcd.com/%12
+Flipping b to c
+http://www.accd.com/1+2
+Inserting { at 15
+http://www.abcd{.com/%12
+Deleting t at 1
+htp://www.abcd.com/%12
+Flipping / to ?
+http:/?www.abcd.com/%12
+Deleting 1 at 27
+http://www.google.com/abcd/23
+Flipping c to a
+http://www.google.aom/abcd/123
+Deleting 1 at 20
+http://www.abcd.com/+2
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Flipping / to '
+http:'/www.abcd.com/1+2
+Inserting f at 6
+http:/f/www.google.com/abcd/123
+Flipping a to `
+http://www.google.com/`bcd/123
+Inserting w at 14
+http://www.abcwd.com/1+2
+Deleting . at 15
+http://www.abcdcom/%12
+Flipping / to '
+http:'/www.abcd.com/%12
+Flipping c to b
+http://www.abbd.com/1+2
+Inserting ] at 16
+http://www.googl]e.com/abcd/123
+Flipping 1 to 9
+http://www.abcd.com/%92
+Flipping . to ?
+http://www?abcd.com/1+2
+Deleting m at 18
+http://www.abcd.co/1+2
+Flipping + to )
+http://www.abcd.com/1)2
+Deleting w at 7
+http://ww.abcd.com/%12
+Flipping t to p
+hptp://www.google.com/abcd/123
+Flipping c to s
+http://www.absd.com/%12
+Deleting m at 20
+http://www.google.co/abcd/123
+Inserting , at 19
+http://www.abcd.com,/1+2
+Deleting o at 17
+http://www.abcd.cm/%12
+Deleting . at 10
+http://wwwgoogle.com/abcd/123
+Deleting p at 3
+htt://www.abcd.com/1+2
+Inserting | at 9
+http://ww|w.abcd.com/1+2
+Flipping h to j
+jttp://www.google.com/abcd/123
+Deleting : at 4
+http//www.abcd.com/%12
+Inserting D at 20
+http://www.google.coDm/abcd/123
+Inserting y at 5
+http:y//www.abcd.com/1+2
+Inserting E at 29
+http://www.google.com/abcd/12E3
+Deleting d at 14
+http://www.abc.com/1+2
+Deleting h at 0
+ttp://www.google.com/abcd/123
+Flipping d to `
+http://www.abc`.com/%12
+Deleting a at 22
+http://www.google.com/bcd/123
+Flipping o to O
+http://www.abcd.cOm/%12
+Flipping : to 8
+http8//www.abcd.com/%12
+Deleting t at 2
+htp://www.abcd.com/1+2
+Inserting J at 21
+http://www.google.comJ/abcd/123
+Flipping a to e
+http://www.google.com/ebcd/123
+Inserting C at 4
+httpC://www.abcd.com/1+2
+Deleting e at 16
+http://www.googl.com/abcd/123
+Flipping w to u
+http://uww.abcd.com/%12
+Flipping o to m
+http://www.gomgle.com/abcd/123
+Inserting u at 1
+huttp://www.google.com/abcd/123
+Inserting d at 19
+http://www.abcd.comd/%12
+Deleting : at 4
+http//www.abcd.com/%12
+Inserting ( at 29
+http://www.google.com/abcd/12(3
+Flipping c to C
+http://www.abCd.com/%12
+Deleting c at 13
+http://www.abd.com/1+2
+Deleting t at 2
+htp://www.abcd.com/1+2
+Flipping / to '
+http://www.abcd.com'%12
+Deleting c at 18
+http://www.google.om/abcd/123
+Flipping c to k
+http://www.abkd.com/1+2
+Inserting C at 22
+http://www.google.com/Cabcd/123
+Flipping a to q
+http://www.google.com/qbcd/123
+Inserting = at 14
+http://www.goo=gle.com/abcd/123
+Flipping : to 2
+http2//www.abcd.com/%12
+Inserting j at 21
+http://www.google.comj/abcd/123
+Deleting a at 22
+http://www.google.com/bcd/123
+Flipping d to e
+http://www.abce.com/%12
+Flipping w to s
+http://wws.abcd.com/%12
+Deleting h at 0
+ttp://www.google.com/abcd/123
+Flipping w to ]]>&#x7f;<![CDATA[
+http://]]>&#x7f;<![CDATA[ww.abcd.com/1+2
+Flipping : to 8
+http8//www.abcd.com/1+2
+Flipping h to `
+`ttp://www.abcd.com/%12
+Inserting V at 20
+http://www.abcd.com/V%12
+Inserting = at 2
+ht=tp://www.abcd.com/1+2
+Flipping p to t
+httt://www.google.com/abcd/123
+Deleting w at 7
+http://ww.abcd.com/%12
+Flipping h to j
+jttp://www.abcd.com/1+2
+Flipping t to p
+htpp://www.abcd.com/%12
+Flipping o to k
+http://www.abcd.ckm/1+2
+Inserting w at 12
+http://www.awbcd.com/1+2
+Deleting h at 0
+ttp://www.google.com/abcd/123
+Flipping 2 to 0
+http://www.abcd.com/%10
+Inserting W at 6
+http:/W/www.abcd.com/1+2
+Inserting s at 14
+http://www.abcsd.com/1+2
+Deleting + at 21
+http://www.abcd.com/12
+Deleting t at 1
+htp://www.abcd.com/1+2
+Deleting o at 13
+http://www.gogle.com/abcd/123
+Inserting ^ at 5
+http:^//www.abcd.com/%12
+Flipping / to .
+http:/.www.abcd.com/%12
+Deleting 1 at 21
+http://www.abcd.com/%2
+Flipping h to i
+ittp://www.abcd.com/1+2
+Deleting o at 13
+http://www.gogle.com/abcd/123
+Inserting W at 12
+http://www.aWbcd.com/1+2
+Inserting % at 16
+http://www.abcd.%com/%12
+Flipping w to v
+http://vww.google.com/abcd/123
+Deleting a at 11
+http://www.bcd.com/1+2
+Deleting 2 at 22
+http://www.abcd.com/1+
+Deleting w at 7
+http://ww.abcd.com/%12
+Flipping / to '
+http://www.abcd.com'%12
+Inserting Z at 17
+http://www.abcd.cZom/1+2
+Deleting w at 9
+http://ww.abcd.com/%12
+Deleting b at 12
+http://www.acd.com/%12
+Inserting | at 1
+h|ttp://www.abcd.com/1+2
+Deleting d at 25
+http://www.google.com/abc/123
+Inserting . at 3
+htt.p://www.abcd.com/%12
+Deleting w at 9
+http://ww.abcd.com/%12
+Inserting O at 25
+http://www.google.com/abcOd/123
+Inserting P at 5
+http:P//www.abcd.com/%12
+Inserting a at 6
+http:/a/www.google.com/abcd/123
+Deleting m at 18
+http://www.abcd.co/1+2
+Deleting / at 5
+http:/www.abcd.com/%12
+Inserting E at 15
+http://www.googEle.com/abcd/123
+Deleting o at 19
+http://www.google.cm/abcd/123
+Inserting D at 0
+Dhttp://www.abcd.com/1+2
+Flipping . to ,
+http://www.abcd,com/1+2
+Inserting # at 17
+http://www.abcd.c#om/%12
+Inserting [ at 15
+http://www.abcd[.com/%12
+Inserting ! at 22
+http://www.abcd.com/%1!2
+Flipping w to g
+http://wgw.google.com/abcd/123
+Deleting : at 4
+http//www.google.com/abcd/123
+Inserting l at 17
+http://www.abcd.clom/1+2
+Deleting c at 16
+http://www.abcd.om/%12
+Flipping b to j
+http://www.ajcd.com/1+2
+Deleting c at 16
+http://www.abcd.om/%12
+Inserting y at 21
+http://www.abcd.com/%y12
+Flipping h to i
+ittp://www.abcd.com/%12
+Deleting o at 19
+http://www.google.cm/abcd/123
+Deleting w at 7
+http://ww.abcd.com/%12
+Flipping o to ]]>&#x7f;<![CDATA[
+http://www.google.c]]>&#x7f;<![CDATA[m/abcd/123
+Flipping o to m
+http://www.abcd.cmm/1+2
+Deleting / at 6
+http:/www.google.com/abcd/123
+Flipping . to /
+http://www.abcd/com/1+2
+Deleting / at 6
+http:/www.abcd.com/%12
+Flipping m to o
+http://www.abcd.coo/1+2
+Flipping o to ]]>&#x7f;<![CDATA[
+http://www.go]]>&#x7f;<![CDATA[gle.com/abcd/123
+Flipping t to u
+hutp://www.abcd.com/%12
+Flipping o to m
+http://www.abcd.cmm/1+2
+Deleting / at 6
+http:/www.abcd.com/%12
+Flipping c to C
+http://www.abcd.Com/1+2
+Flipping p to x
+httx://www.abcd.com/%12
+Deleting m at 18
+http://www.abcd.co/%12
+Deleting h at 0
+ttp://www.abcd.com/%12
+Inserting 9 at 0
+9http://www.abcd.com/1+2
+Flipping e to m
+http://www.googlm.com/abcd/123
+Deleting / at 19
+http://www.abcd.com%12
+Inserting s at 15
+http://www.abcds.com/1+2
+Flipping . to /
+http://www/abcd.com/1+2
+Deleting . at 15
+http://www.abcdcom/1+2
+Deleting 1 at 21
+http://www.abcd.com/%2
+Inserting o at 28
+http://www.google.com/abcd/1o23
+Flipping h to x
+xttp://www.abcd.com/%12
+Inserting + at 20
+http://www.abcd.com/+1+2
+Flipping c to s
+http://www.abcd.som/1+2
+Flipping / to +
+http:+/www.google.com/abcd/123
+Deleting g at 14
+http://www.goole.com/abcd/123
+Flipping w to u
+http://uww.abcd.com/1+2
+Deleting o at 17
+http://www.abcd.cm/1+2
+Inserting j at 4
+httpj://www.abcd.com/%12
+Deleting d at 25
+http://www.google.com/abc/123
+Deleting p at 3
+htt://www.abcd.com/1+2
+Inserting ! at 20
+http://www.abcd.com/!1+2
+Deleting d at 14
+http://www.abc.com/1+2
+Inserting < at 10
+http://www<.abcd.com/%12
+Inserting s at 12
+http://www.gsoogle.com/abcd/123
+Inserting | at 0
+|http://www.abcd.com/%12
+Deleting w at 7
+http://ww.google.com/abcd/123
+Flipping t to u
+htup://www.abcd.com/%12
+Flipping a to i
+http://www.ibcd.com/%12
+Flipping a to e
+http://www.ebcd.com/1+2
+Deleting w at 8
+http://ww.abcd.com/%12
+Flipping / to +
+http:+/www.google.com/abcd/123
+Flipping w to W
+http://wwW.abcd.com/1+2
+Inserting % at 17
+http://www.google%.com/abcd/123
+Flipping 2 to 3
+http://www.abcd.com/1+3
+Inserting m at 2
+htmtp://www.abcd.com/%12
+Deleting 2 at 22
+http://www.abcd.com/%1
+Inserting 5 at 9
+http://ww5w.abcd.com/%12
+Flipping w to g
+http://gww.abcd.com/%12
+Inserting w at 10
+http://wwww.abcd.com/1+2
+Inserting Y at 12
+http://www.aYbcd.com/%12
+Inserting Y at 3
+httYp://www.abcd.com/1+2
+Inserting = at 8
+http://w=ww.abcd.com/%12
+Deleting . at 10
+http://wwwgoogle.com/abcd/123
+Deleting l at 15
+http://www.googe.com/abcd/123
+Flipping t to T
+hTtp://www.google.com/abcd/123
+Deleting . at 10
+http://wwwabcd.com/%12
+Flipping 3 to ;
+http://www.google.com/abcd/12;
+Inserting + at 15
+http://www.abcd+.com/1+2
+Inserting p at 4
+httpp://www.google.com/abcd/123
+Flipping 1 to !
+http://www.google.com/abcd/!23
+Flipping 3 to ?
+http://www.google.com/abcd/12?
+Inserting ( at 14
+http://www.abc(d.com/1+2
+Inserting f at 9
+http://wwfw.google.com/abcd/123
+Inserting q at 21
+http://www.google.comq/abcd/123
+Inserting 2 at 10
+http://www2.abcd.com/1+2
+Flipping / to +
+http://www.abcd.com+%12
+Flipping d to f
+http://www.abcf.com/%12
+Inserting W at 28
+http://www.google.com/abcd/1W23
+Inserting v at 2
+htvtp://www.abcd.com/%12
+Flipping . to *
+http://www.abcd*com/%12
+Deleting / at 19
+http://www.abcd.com%12
+Inserting K at 2
+htKtp://www.abcd.com/1+2
+Inserting o at 15
+http://www.abcdo.com/1+2
+Inserting Y at 12
+http://www.aYbcd.com/1+2
+Flipping : to 2
+http2//www.abcd.com/1+2
+Flipping c to k
+http://www.abcd.kom/1+2
+Flipping c to a
+http://www.abcd.aom/1+2
+Deleting c at 13
+http://www.abd.com/1+2
+Inserting r at 9
+http://wwrw.abcd.com/%12
+Inserting # at 14
+http://www.abc#d.com/%12
+Deleting / at 19
+http://www.abcd.com1+2
+Deleting 2 at 28
+http://www.google.com/abcd/13
+Flipping . to ,
+http://www,google.com/abcd/123
+Flipping / to -
+http://www.google.com/abcd-123
+Inserting ; at 6
+http:/;/www.abcd.com/1+2
+Flipping w to g
+http://wgw.abcd.com/%12
+Inserting 5 at 1
+h5ttp://www.abcd.com/%12
+Deleting p at 3
+htt://www.abcd.com/%12
+Inserting x at 21
+http://www.google.comx/abcd/123
+Flipping m to e
+http://www.abcd.coe/1+2
+Flipping . to /
+http://www/abcd.com/1+2
+Inserting 2 at 2
+ht2tp://www.abcd.com/1+2
+Deleting c at 24
+http://www.google.com/abd/123
+Inserting 2 at 1
+h2ttp://www.google.com/abcd/123
+Flipping / to ?
+http://www.abcd.com?%12
+Deleting w at 8
+http://ww.abcd.com/1+2
+Inserting H at 19
+http://www.google.cHom/abcd/123
+Inserting D at 11
+http://www.Dgoogle.com/abcd/123
+Deleting w at 8
+http://ww.google.com/abcd/123
+Flipping p to r
+httr://www.abcd.com/1+2
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Flipping m to }
+http://www.google.co}/abcd/123
+Deleting w at 9
+http://ww.abcd.com/1+2
+Inserting 3 at 12
+http://www.g3oogle.com/abcd/123
+Deleting w at 7
+http://ww.abcd.com/1+2
+Inserting F at 18
+http://www.abcd.coFm/1+2
+Deleting 2 at 22
+http://www.abcd.com/1+
+Flipping / to '
+http:/'www.google.com/abcd/123
+Flipping a to i
+http://www.google.com/ibcd/123
+Deleting a at 11
+http://www.bcd.com/1+2
+Flipping o to m
+http://www.gmogle.com/abcd/123
+Flipping o to m
+http://www.abcd.cmm/1+2
+Flipping 1 to 0
+http://www.google.com/abcd/023
+Flipping 1 to 5
+http://www.google.com/abcd/523
+Inserting v at 12
+http://www.gvoogle.com/abcd/123
+Flipping w to g
+http://wgw.abcd.com/%12
+Flipping . to /
+http://www.abcd/com/1+2
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Deleting . at 17
+http://www.googlecom/abcd/123
+Flipping 2 to :
+http://www.abcd.com/1+:
+Inserting a at 21
+http://www.abcd.com/1a+2
+Flipping / to ?
+http://www.google.com/abcd?123
+Inserting / at 13
+http://www.ab/cd.com/%12
+Inserting ! at 6
+http:/!/www.abcd.com/%12
+Inserting I at 4
+httpI://www.abcd.com/%12
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Inserting w at 15
+http://www.abcdw.com/1+2
+Flipping / to '
+http://www.google.com/abcd'123
+Deleting h at 0
+ttp://www.abcd.com/%12
+Deleting / at 21
+http://www.google.comabcd/123
+Inserting V at 12
+http://www.aVbcd.com/1+2
+Flipping 2 to "
+http://www.abcd.com/%1"
+Flipping d to t
+http://www.google.com/abct/123
+Deleting c at 24
+http://www.google.com/abd/123
+Inserting - at 3
+htt-p://www.abcd.com/1+2
+Flipping . to ?
+http://www.google?com/abcd/123
+Inserting ^ at 7
+http://^www.google.com/abcd/123
+Deleting / at 6
+http:/www.abcd.com/1+2
+Inserting | at 11
+http://www.|abcd.com/1+2
+Deleting b at 12
+http://www.acd.com/1+2
+Deleting . at 15
+http://www.abcdcom/%12
+Inserting 8 at 12
+http://www.g8oogle.com/abcd/123
+Flipping l to n
+http://www.googne.com/abcd/123
+Deleting p at 3
+htt://www.abcd.com/%12
+Flipping o to ]]>&#x7f;<![CDATA[
+http://www.abcd.c]]>&#x7f;<![CDATA[m/1+2
+Deleting g at 11
+http://www.oogle.com/abcd/123
+Deleting t at 1
+htp://www.abcd.com/1+2
+Inserting L at 22
+http://www.google.com/Labcd/123
+Deleting b at 23
+http://www.google.com/acd/123
+Inserting $ at 12
+http://www.a$bcd.com/1+2
+Inserting . at 25
+http://www.google.com/abc.d/123
+Inserting n at 6
+http:/n/www.google.com/abcd/123
+Inserting q at 26
+http://www.google.com/abcdq/123
+Deleting c at 16
+http://www.abcd.om/%12
+Inserting x at 22
+http://www.abcd.com/1+x2
+Inserting < at 21
+http://www.abcd.com/%<12
+Deleting / at 26
+http://www.google.com/abcd123
+Deleting c at 24
+http://www.google.com/abd/123
+Flipping p to t
+httt://www.google.com/abcd/123
+Flipping g to o
+http://www.gooole.com/abcd/123
+Deleting / at 19
+http://www.abcd.com%12
+Deleting h at 0
+ttp://www.abcd.com/%12
+Flipping : to *
+http*//www.google.com/abcd/123
+Inserting ? at 6
+http:/?/www.abcd.com/%12
+Deleting o at 13
+http://www.gogle.com/abcd/123
+Inserting 9 at 2
+ht9tp://www.abcd.com/1+2
+Flipping / to ?
+http:?/www.abcd.com/1+2
+Deleting a at 11
+http://www.bcd.com/%12
+Inserting < at 5
+http:<//www.abcd.com/1+2
+Flipping 2 to "
+http://www.abcd.com/%1"
+Flipping / to +
+http:/+www.abcd.com/%12
+Deleting / at 19
+http://www.abcd.com1+2
+Deleting / at 5
+http:/www.google.com/abcd/123
+Deleting a at 22
+http://www.google.com/bcd/123
+Inserting ; at 28
+http://www.google.com/abcd/1;23
+Inserting _ at 22
+http://www.abcd.com/%1_2
+Flipping p to r
+httr://www.google.com/abcd/123
+Deleting w at 7
+http://ww.abcd.com/%12
+Inserting k at 18
+http://www.abcd.cokm/1+2
+Flipping t to |
+ht|p://www.abcd.com/1+2
+Inserting + at 18
+http://www.abcd.co+m/1+2
+Inserting " at 18
+http://www.abcd.co"m/%12
+Inserting P at 21
+http://www.abcd.com/%P12
+Deleting o at 17
+http://www.abcd.cm/1+2
+Deleting : at 4
+http//www.google.com/abcd/123
+Flipping / to ?
+http://www.abcd.com?%12
+Flipping c to a
+http://www.abcd.aom/1+2
+Inserting b at 16
+http://www.abcd.bcom/%12
+Inserting M at 21
+http://www.abcd.com/%M12
+Inserting ` at 0
+`http://www.abcd.com/1+2
+Deleting c at 13
+http://www.abd.com/1+2
+Flipping a to e
+http://www.google.com/ebcd/123
+Inserting C at 16
+http://www.abcd.Ccom/%12
+Flipping / to ?
+http:/?www.abcd.com/1+2
+Inserting O at 22
+http://www.google.com/Oabcd/123
+Inserting Q at 1
+hQttp://www.google.com/abcd/123
+Inserting H at 3
+httHp://www.abcd.com/%12
+Flipping c to k
+http://www.google.kom/abcd/123
+Flipping / to ?
+http:/?www.abcd.com/%12
+Inserting A at 1
+hAttp://www.abcd.com/1+2
+Flipping w to g
+http://wgw.abcd.com/1+2
+Flipping a to e
+http://www.google.com/ebcd/123
+Inserting 6 at 10
+http://www6.abcd.com/%12
+Flipping c to g
+http://www.abgd.com/%12
+Inserting N at 10
+http://wwwN.abcd.com/%12
+Inserting o at 3
+httop://www.google.com/abcd/123
+Flipping 1 to 5
+http://www.abcd.com/5+2
+Inserting e at 23
+http://www.google.com/aebcd/123
+Deleting m at 18
+http://www.abcd.co/%12
+Inserting O at 1
+hOttp://www.abcd.com/%12
+Deleting m at 18
+http://www.abcd.co/%12
+Inserting y at 13
+http://www.goyogle.com/abcd/123
+Inserting q at 15
+http://www.googqle.com/abcd/123
+Deleting t at 2
+htp://www.abcd.com/%12
+Inserting u at 8
+http://wuww.abcd.com/1+2
+Flipping w to u
+http://wwu.google.com/abcd/123
+Deleting c at 13
+http://www.abd.com/%12
+Deleting a at 22
+http://www.google.com/bcd/123
+Inserting 5 at 13
+http://www.ab5cd.com/1+2
+Inserting B at 10
+http://wwwB.abcd.com/1+2
+Flipping / to -
+http:-/www.abcd.com/1+2
+Flipping c to a
+http://www.abcd.aom/%12
+Flipping g to w
+http://www.woogle.com/abcd/123
+Flipping o to n
+http://www.gnogle.com/abcd/123
+Deleting / at 19
+http://www.abcd.com1+2
+Flipping w to u
+http://wwu.abcd.com/1+2
+Deleting t at 2
+htp://www.google.com/abcd/123
+Inserting 4 at 20
+http://www.abcd.com/4%12
+Inserting S at 10
+http://wwwS.google.com/abcd/123
+Inserting C at 17
+http://www.googleC.com/abcd/123
+Deleting m at 20
+http://www.google.co/abcd/123
+Flipping a to e
+http://www.ebcd.com/%12
+Flipping h to `
+`ttp://www.abcd.com/%12
+Inserting T at 21
+http://www.abcd.com/1T+2
+Flipping w to g
+http://wwg.google.com/abcd/123
+Inserting ; at 9
+http://ww;w.abcd.com/1+2
+Flipping d to t
+http://www.abct.com/%12
+Flipping . to ,
+http://www,abcd.com/1+2
+Flipping b to j
+http://www.ajcd.com/%12
+Inserting ` at 20
+http://www.abcd.com/`%12
+Deleting w at 8
+http://ww.abcd.com/%12
+Inserting v at 6
+http:/v/www.abcd.com/1+2
+Flipping / to '
+http://www.abcd.com'%12
+Inserting x at 11
+http://www.xabcd.com/1+2
+Inserting n at 12
+http://www.anbcd.com/%12
+Deleting e at 16
+http://www.googl.com/abcd/123
+Inserting c at 1
+hcttp://www.google.com/abcd/123
+Deleting o at 19
+http://www.google.cm/abcd/123
+Inserting u at 14
+http://www.goougle.com/abcd/123
+Inserting ^ at 4
+http^://www.abcd.com/1+2
+Flipping / to ?
+http:/?www.google.com/abcd/123
+Deleting c at 18
+http://www.google.om/abcd/123
+Inserting = at 11
+http://www.=abcd.com/%12
+Flipping 1 to 5
+http://www.google.com/abcd/523
+Inserting * at 25
+http://www.google.com/abc*d/123
+Inserting L at 12
+http://www.aLbcd.com/%12
+Flipping w to v
+http://vww.abcd.com/1+2
+Deleting l at 15
+http://www.googe.com/abcd/123
+Deleting . at 10
+http://wwwgoogle.com/abcd/123
+Inserting * at 21
+http://www.google.com*/abcd/123
+Inserting > at 3
+htt>p://www.abcd.com/1+2
+Inserting j at 21
+http://www.abcd.com/%j12
+Deleting w at 8
+http://ww.abcd.com/%12
+Inserting c at 14
+http://www.goocgle.com/abcd/123
+Deleting . at 15
+http://www.abcdcom/%12
+Inserting ? at 3
+htt?p://www.abcd.com/%12
+Flipping w to s
+http://sww.abcd.com/1+2
+Flipping p to t
+httt://www.google.com/abcd/123
+Deleting 1 at 20
+http://www.abcd.com/+2
+Deleting a at 11
+http://www.bcd.com/1+2
+Deleting . at 10
+http://wwwabcd.com/%12
+Inserting e at 15
+http://www.abcde.com/%12
+Flipping l to n
+http://www.googne.com/abcd/123
+Deleting p at 3
+htt://www.abcd.com/%12
+Inserting 6 at 12
+http://www.g6oogle.com/abcd/123
+Inserting F at 4
+httpF://www.google.com/abcd/123
+Deleting o at 17
+http://www.abcd.cm/%12
+Deleting / at 5
+http:/www.google.com/abcd/123
+Deleting / at 19
+http://www.abcd.com1+2
+Flipping e to m
+http://www.googlm.com/abcd/123
+Flipping b to `
+http://www.a`cd.com/1+2
+Flipping / to +
+http:/+www.abcd.com/%12
+Deleting . at 15
+http://www.abcdcom/%12
+Inserting ) at 13
+http://www.ab)cd.com/1+2
+Deleting m at 18
+http://www.abcd.co/%12
+Inserting r at 22
+http://www.abcd.com/%1r2
+Deleting d at 14
+http://www.abc.com/1+2
+Flipping a to c
+http://www.cbcd.com/%12
+Flipping t to T
+htTp://www.abcd.com/1+2
+Deleting : at 4
+http//www.abcd.com/%12
+Flipping p to q
+httq://www.abcd.com/1+2
+Inserting / at 14
+http://www.abc/d.com/1+2
+Deleting a at 22
+http://www.google.com/bcd/123
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Inserting 2 at 2
+ht2tp://www.abcd.com/1+2
+Deleting p at 3
+htt://www.abcd.com/1+2
+Inserting ! at 2
+ht!tp://www.google.com/abcd/123
+Inserting , at 2
+ht,tp://www.google.com/abcd/123
+Inserting } at 16
+http://www.abcd.}com/%12
+Flipping / to '
+http://www.abcd.com'1+2
+Inserting $ at 10
+http://www$.abcd.com/%12
+Flipping b to r
+http://www.arcd.com/%12
+Deleting o at 12
+http://www.gogle.com/abcd/123
+Flipping w to ]]>&#x7f;<![CDATA[
+http://ww]]>&#x7f;<![CDATA[.abcd.com/%12
+Flipping h to x
+xttp://www.abcd.com/1+2
+Flipping w to s
+http://sww.abcd.com/1+2
+Inserting * at 12
+http://www.g*oogle.com/abcd/123
+Inserting ) at 5
+http:)//www.abcd.com/1+2
+Inserting I at 22
+http://www.google.com/Iabcd/123
+Inserting M at 18
+http://www.abcd.coMm/%12
+Inserting 0 at 4
+http0://www.google.com/abcd/123
+Deleting p at 3
+htt://www.google.com/abcd/123
+Flipping % to $
+http://www.abcd.com/$12
+Deleting t at 1
+htp://www.abcd.com/1+2
+Inserting E at 17
+http://www.abcd.cEom/1+2
+Flipping w to s
+http://wws.abcd.com/%12
+Flipping w to g
+http://wgw.abcd.com/%12
+Flipping 2 to :
+http://www.google.com/abcd/1:3
+Flipping w to g
+http://gww.abcd.com/%12
+Flipping / to +
+http:+/www.abcd.com/%12
+Inserting ` at 4
+http`://www.google.com/abcd/123
+Deleting w at 7
+http://ww.google.com/abcd/123
+Flipping h to l
+lttp://www.abcd.com/%12
+Flipping w to g
+http://wgw.abcd.com/1+2
+Deleting p at 3
+htt://www.google.com/abcd/123
+Flipping a to `
+http://www.`bcd.com/1+2
+Flipping 3 to 2
+http://www.google.com/abcd/122
+Deleting w at 9
+http://ww.abcd.com/1+2
+Deleting / at 6
+http:/www.google.com/abcd/123
+Flipping / to .
+http://www.abcd.com.%12
+Flipping t to |
+h|tp://www.abcd.com/%12
+Flipping w to u
+http://wwu.google.com/abcd/123
+Inserting d at 19
+http://www.google.cdom/abcd/123
+Flipping 1 to !
+http://www.google.com/abcd/!23
+Flipping w to ]]>&#x7f;<![CDATA[
+http://ww]]>&#x7f;<![CDATA[.google.com/abcd/123
+Inserting [ at 20
+http://www.abcd.com/[%12
+Inserting x at 18
+http://www.google.xcom/abcd/123
+Deleting . at 10
+http://wwwabcd.com/%12
+Flipping . to >
+http://www.google>com/abcd/123
+Inserting ' at 8
+http://w'ww.abcd.com/1+2
+Inserting > at 29
+http://www.google.com/abcd/12>3
+Deleting w at 9
+http://ww.abcd.com/1+2
+Flipping w to s
+http://sww.abcd.com/%12
+Inserting w at 13
+http://www.abwcd.com/%12
+Deleting . at 17
+http://www.googlecom/abcd/123
+Flipping / to -
+http:/-www.abcd.com/%12
+Deleting / at 6
+http:/www.abcd.com/%12
+Deleting . at 15
+http://www.abcdcom/%12
+Deleting t at 1
+htp://www.abcd.com/%12
+Inserting   at 4
+http ://www.abcd.com/%12
+Deleting c at 13
+http://www.abd.com/1+2
+Deleting . at 17
+http://www.googlecom/abcd/123
+Flipping m to l
+http://www.google.col/abcd/123
+Flipping / to -
+http://www.google.com/abcd-123
+Inserting U at 25
+http://www.google.com/abcUd/123
+Deleting . at 10
+http://wwwabcd.com/1+2
+Inserting . at 5
+http:.//www.abcd.com/%12
+Flipping + to )
+http://www.abcd.com/1)2
+Inserting Z at 15
+http://www.abcdZ.com/1+2
+Flipping . to >
+http://www.google>com/abcd/123
+Deleting p at 3
+htt://www.abcd.com/%12
+Flipping w to v
+http://wvw.abcd.com/1+2
+Flipping 1 to 0
+http://www.abcd.com/%02
+Inserting . at 21
+http://www.abcd.com/%.12
+Inserting : at 22
+http://www.abcd.com/1+:2
+Flipping / to -
+http:/-www.google.com/abcd/123
+Inserting 9 at 10
+http://www9.abcd.com/%12
+Inserting K at 2
+htKtp://www.abcd.com/1+2
+Flipping o to O
+http://www.abcd.cOm/%12
+Deleting / at 5
+http:/www.abcd.com/%12
+Inserting J at 4
+httpJ://www.abcd.com/1+2
+Flipping a to e
+http://www.google.com/ebcd/123
+Inserting 9 at 22
+http://www.google.com/9abcd/123
+Inserting d at 6
+http:/d/www.abcd.com/%12
+Deleting / at 5
+http:/www.google.com/abcd/123
+Deleting w at 8
+http://ww.google.com/abcd/123
+Flipping w to v
+http://vww.abcd.com/1+2
+Deleting p at 3
+htt://www.google.com/abcd/123
+Flipping p to x
+httx://www.abcd.com/%12
+Flipping 2 to ?
+http://www.abcd.com/1+?
+Deleting + at 21
+http://www.abcd.com/12
+Flipping w to v
+http://wwv.abcd.com/1+2
+Flipping a to i
+http://www.ibcd.com/%12
+Inserting q at 5
+http:q//www.abcd.com/%12
+Inserting 6 at 8
+http://w6ww.abcd.com/1+2
+Inserting - at 10
+http://www-.google.com/abcd/123
+Flipping % to $
+http://www.abcd.com/$12
+Inserting ' at 8
+http://w'ww.google.com/abcd/123
+Flipping h to `
+`ttp://www.abcd.com/%12
+Inserting % at 28
+http://www.google.com/abcd/1%23
+Inserting n at 16
+http://www.abcd.ncom/%12
+Flipping g to f
+http://www.goofle.com/abcd/123
+Flipping a to `
+http://www.google.com/`bcd/123
+Inserting f at 8
+http://wfww.abcd.com/%12
+Deleting / at 19
+http://www.abcd.com1+2
+Inserting , at 7
+http://,www.google.com/abcd/123
+Deleting t at 1
+htp://www.google.com/abcd/123
+Deleting / at 19
+http://www.abcd.com%12
+Flipping 2 to :
+http://www.abcd.com/1+:
+Inserting X at 1
+hXttp://www.abcd.com/1+2
+Inserting " at 13
+http://www.ab"cd.com/%12
+Inserting e at 19
+http://www.google.ceom/abcd/123
+Deleting / at 19
+http://www.abcd.com%12
+Inserting ? at 6
+http:/?/www.google.com/abcd/123
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Inserting 3 at 14
+http://www.goo3gle.com/abcd/123
+Deleting t at 2
+htp://www.abcd.com/%12
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Flipping w to s
+http://sww.abcd.com/%12
+Flipping o to O
+http://www.abcd.cOm/1+2
+Inserting o at 16
+http://www.abcd.ocom/1+2
+Deleting w at 8
+http://ww.abcd.com/%12
+Inserting 2 at 22
+http://www.abcd.com/%122
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Deleting 2 at 22
+http://www.abcd.com/%1
+Deleting c at 24
+http://www.google.com/abd/123
+Deleting t at 2
+htp://www.abcd.com/1+2
+Inserting 1 at 8
+http://w1ww.abcd.com/1+2
+Inserting X at 17
+http://www.googleX.com/abcd/123
+Inserting 6 at 16
+http://www.abcd.6com/1+2
+Deleting . at 15
+http://www.abcdcom/1+2
+Inserting Z at 20
+http://www.google.coZm/abcd/123
+Flipping o to k
+http://www.abcd.ckm/%12
+Inserting 8 at 22
+http://www.abcd.com/%182
+Flipping / to ?
+http:/?www.google.com/abcd/123
+Deleting o at 17
+http://www.abcd.cm/1+2
+Inserting ? at 2
+ht?tp://www.abcd.com/%12
+Inserting [ at 19
+http://www.abcd.com[/1+2
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Deleting 2 at 22
+http://www.abcd.com/%1
+Flipping p to q
+httq://www.abcd.com/%12
+Inserting * at 18
+http://www.abcd.co*m/1+2
+Inserting 4 at 0
+4http://www.abcd.com/%12
+Inserting m at 22
+http://www.abcd.com/%1m2
+Inserting g at 20
+http://www.abcd.com/g1+2
+Inserting Y at 20
+http://www.abcd.com/Y1+2
+Flipping d to D
+http://www.abcD.com/1+2
+Inserting I at 5
+http:I//www.google.com/abcd/123
+Inserting & at 7
+http://&www.abcd.com/1+2
+Inserting m at 15
+http://www.abcdm.com/%12
+Inserting v at 5
+http:v//www.abcd.com/%12
+Flipping c to C
+http://www.abcd.Com/%12
+Deleting / at 19
+http://www.abcd.com1+2
+Inserting ( at 7
+http://(www.abcd.com/1+2
+Deleting c at 18
+http://www.google.om/abcd/123
+Inserting V at 1
+hVttp://www.abcd.com/1+2
+Flipping / to ?
+http://www.abcd.com?%12
+Inserting t at 2
+htttp://www.abcd.com/1+2
+Deleting 3 at 29
+http://www.google.com/abcd/12
+Flipping w to u
+http://uww.abcd.com/1+2
+Deleting . at 17
+http://www.googlecom/abcd/123
+Deleting b at 12
+http://www.acd.com/%12
+Deleting b at 23
+http://www.google.com/acd/123
+Inserting " at 16
+http://www.abcd."com/1+2
+Deleting : at 4
+http//www.google.com/abcd/123
+Flipping b to c
+http://www.accd.com/%12
+Deleting m at 20
+http://www.google.co/abcd/123
+Flipping a to q
+http://www.google.com/qbcd/123
+Flipping t to p
+htpp://www.abcd.com/1+2
+Inserting { at 17
+http://www.abcd.c{om/%12
+Inserting 6 at 23
+http://www.google.com/a6bcd/123
+Inserting ( at 4
+http(://www.abcd.com/%12
+Flipping w to g
+http://gww.abcd.com/%12
+Inserting \ at 0
+\http://www.abcd.com/1+2
+Flipping % to '
+http://www.abcd.com/'12
+Flipping c to g
+http://www.abgd.com/1+2
+Deleting p at 3
+htt://www.abcd.com/1+2
+Deleting 2 at 22
+http://www.abcd.com/%1
+Deleting b at 23
+http://www.google.com/acd/123
+Deleting c at 16
+http://www.abcd.om/1+2
+Flipping + to #
+http://www.abcd.com/1#2
+Deleting h at 0
+ttp://www.abcd.com/1+2
+Inserting ] at 8
+http://w]ww.abcd.com/1+2
+Deleting / at 19
+http://www.abcd.com%12
+Flipping / to -
+http:-/www.abcd.com/1+2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
