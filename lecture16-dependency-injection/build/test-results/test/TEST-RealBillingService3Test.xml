@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RealBillingService3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-28T17:14:51" hostname="EGR-G2364LCM0D" time="0.244">
+  <properties/>
+  <testcase name="testSuccessfulCharge()" classname="RealBillingService3Test" time="0.244"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
